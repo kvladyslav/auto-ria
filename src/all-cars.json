@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Peugeot 3008 1.2 PureTech 130 PDC SHZ VirtC MirrorL 17Z 96 k...",
+    "id": "908007299321358160",
+    "mileage": 10,
+    "brand": {
+      "id": 56,
+      "name": "Peugeot"
+    },
+    "model": {
+      "id": 1579,
+      "parent_id": null,
+      "name": "3008"
+    },
+    "fueltype": {
+      "id": 1,
+      "name": "Benzin"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/peugeot-3008-906756802-120x90_fef4c4e899.jpg",
+      "full": "https://images.pkw.net/peugeot-3008-906756802-640x480_52204453a5.jpg",
+      "original": "https://images.pkw.net/peugeot-3008-906756802-0x0_a44695b347.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/peugeot-3008-906756802-120x90_075aaa765a.webp",
+        "full": "https://images.pkw.net/peugeot-3008-906756802-640x480_b14be60a59.webp",
+        "original": "https://images.pkw.net/peugeot-3008-906756802-0x0_20702d6f29.webp"
+      }
+    }
+  },
+  {
+    "name": "Hyundai Kona EV Style",
+    "id": "515484831559311489",
+    "mileage": 5,
+    "brand": {
+      "id": 30,
+      "name": "Hyundai"
+    },
+    "model": {
+      "id": 3082,
+      "parent_id": null,
+      "name": "Kona"
+    },
+    "fueltype": {
+      "id": 4,
+      "name": "Elektro"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/hyundai-kona-900327537-120x90_b29d3cffbe.jpg",
+      "full": "https://images.pkw.net/hyundai-kona-900327537-640x480_621ad34d09.jpg",
+      "original": "https://images.pkw.net/hyundai-kona-900327537-0x0_514cff0fc9.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/hyundai-kona-900327537-120x90_221c70a2c5.webp",
+        "full": "https://images.pkw.net/hyundai-kona-900327537-640x480_b39ed46236.webp",
+        "original": "https://images.pkw.net/hyundai-kona-900327537-0x0_5fe2400a09.webp"
+      }
+    }
+  },
+  {
+    "name": "Opel Astra ST GS LINE 1.2 Klimaautomatik Navi",
+    "id": "45257411656117929",
+    "mileage": 4711,
+    "brand": {
+      "id": 54,
+      "name": "Opel"
+    },
+    "model": {
+      "id": 703,
+      "parent_id": null,
+      "name": "Astra"
+    },
+    "fueltype": {
+      "id": 1,
+      "name": "Benzin"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/opel-astra-903739952-120x90_8256d59aef.jpg",
+      "full": "https://images.pkw.net/opel-astra-903739952-640x480_67272bfce3.jpg",
+      "original": "https://images.pkw.net/opel-astra-903739952-0x0_74020dec98.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/opel-astra-903739952-120x90_6a06b06c92.webp",
+        "full": "https://images.pkw.net/opel-astra-903739952-640x480_a19e185386.webp",
+        "original": "https://images.pkw.net/opel-astra-903739952-0x0_21f66dbfa2.webp"
+      }
+    }
+  },
+  {
+    "name": "Opel Insignia INNOVATION/Automatik/Schiebedach/ACC/Na",
+    "id": "558541329313935799",
+    "mileage": 45842,
+    "brand": {
+      "id": 54,
+      "name": "Opel"
+    },
+    "model": {
+      "id": 1382,
+      "parent_id": null,
+      "name": "Insignia"
+    },
+    "fueltype": {
+      "id": 2,
+      "name": "Diesel"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/opel-insignia-906953377-120x90_a40a0353a5.jpg",
+      "full": "https://images.pkw.net/opel-insignia-906953377-640x480_e77b70472b.jpg",
+      "original": "https://images.pkw.net/opel-insignia-906953377-0x0_f0036eb7d9.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/opel-insignia-906953377-120x90_565f2a5531.webp",
+        "full": "https://images.pkw.net/opel-insignia-906953377-640x480_3839ff863c.webp",
+        "original": "https://images.pkw.net/opel-insignia-906953377-0x0_36871cae74.webp"
+      }
+    }
+  },
+  {
+    "name": "Opel Crossland X 120 Jahre 1.2 Klima/SH/PDC/LED",
+    "id": "669117635437031244",
+    "mileage": 9800,
+    "brand": {
+      "id": 54,
+      "name": "Opel"
+    },
+    "model": {
+      "id": 3020,
+      "parent_id": null,
+      "name": "Crossland X"
+    },
+    "fueltype": {
+      "id": 1,
+      "name": "Benzin"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/opel-crossland-x-900769062-120x90_04dacf3695.jpg",
+      "full": "https://images.pkw.net/opel-crossland-x-900769062-640x480_f886ca7a0a.jpg",
+      "original": "https://images.pkw.net/opel-crossland-x-900769062-0x0_8db3040851.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/opel-crossland-x-900769062-120x90_ba4c64c318.webp",
+        "full": "https://images.pkw.net/opel-crossland-x-900769062-640x480_03a48ed93d.webp",
+        "original": "https://images.pkw.net/opel-crossland-x-900769062-0x0_1e6e2a6ab4.webp"
+      }
+    }
+  },
+  {
+    "name": "Peugeot 308 2.0HDI SW Allure>LEDER+NAVI PLUS+SHZ+PANO+LM",
+    "id": "317592380224477884",
+    "mileage": 59986,
+    "brand": {
+      "id": 56,
+      "name": "Peugeot"
+    },
+    "model": {
+      "id": 1006,
+      "parent_id": null,
+      "name": "308"
+    },
+    "fueltype": {
+      "id": 2,
+      "name": "Diesel"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/peugeot-308-903371825-120x90_b266ee313a.jpg",
+      "full": "https://images.pkw.net/peugeot-308-903371825-640x480_68f04c1991.jpg",
+      "original": "https://images.pkw.net/peugeot-308-903371825-0x0_9f294a2cc0.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/peugeot-308-903371825-120x90_cae0f239e7.webp",
+        "full": "https://images.pkw.net/peugeot-308-903371825-640x480_cc1e8bc845.webp",
+        "original": "https://images.pkw.net/peugeot-308-903371825-0x0_ab1c8d745c.webp"
+      }
+    }
+  },
+  {
+    "name": "VW T6 .1 Kasten LR DSG Navi mob Klima PDC NP:47.000€",
+    "id": "411876669639261528",
+    "mileage": 22900,
+    "brand": {
+      "id": 76,
+      "name": "VW"
+    },
+    "model": {
+      "id": 2619,
+      "parent_id": null,
+      "name": "T6"
+    },
+    "fueltype": {
+      "id": 2,
+      "name": "Diesel"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/vw-t6-906699474-120x90_e1efd5ae78.jpg",
+      "full": "https://images.pkw.net/vw-t6-906699474-640x480_9205e3e739.jpg",
+      "original": "https://images.pkw.net/vw-t6-906699474-0x0_328ec4e7cf.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/vw-t6-906699474-120x90_35b8dfb126.webp",
+        "full": "https://images.pkw.net/vw-t6-906699474-640x480_c9784edc57.webp",
+        "original": "https://images.pkw.net/vw-t6-906699474-0x0_b2aacecddd.webp"
+      }
+    }
+  },
+  {
+    "name": "VW Caddy 2.0 TDI EcoProfi BMT Kasten EINPARKHILFE",
+    "id": "79875399298624121",
+    "mileage": 37421,
+    "brand": {
+      "id": 76,
+      "name": "VW"
+    },
+    "model": {
+      "id": 937,
+      "parent_id": null,
+      "name": "Caddy"
+    },
+    "fueltype": {
+      "id": 2,
+      "name": "Diesel"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/vw-caddy-901485546-120x90_cb34c02462.jpg",
+      "full": "https://images.pkw.net/vw-caddy-901485546-640x480_ca2d60dd65.jpg",
+      "original": "https://images.pkw.net/vw-caddy-901485546-0x0_a6e15e1a99.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/vw-caddy-901485546-120x90_49bcb5ea42.webp",
+        "full": "https://images.pkw.net/vw-caddy-901485546-640x480_10739b5de2.webp",
+        "original": "https://images.pkw.net/vw-caddy-901485546-0x0_8fa11b9303.webp"
+      }
+    }
+  },
+  {
+    "name": "Ford Grand C-Max Titanium",
+    "id": "423798066123729417",
+    "mileage": 72000,
+    "brand": {
+      "id": 26,
+      "name": "Ford"
+    },
+    "model": {
+      "id": 3210,
+      "parent_id": null,
+      "name": "Grand C-Max"
+    },
+    "fueltype": {
+      "id": 1,
+      "name": "Benzin"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/ford-grand-c-max-906166585-120x90_e1de3de368.jpg",
+      "full": "https://images.pkw.net/ford-grand-c-max-906166585-640x480_18dfa955a9.jpg",
+      "original": "https://images.pkw.net/ford-grand-c-max-906166585-0x0_7e5d3ddebd.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/ford-grand-c-max-906166585-120x90_7434928861.webp",
+        "full": "https://images.pkw.net/ford-grand-c-max-906166585-640x480_810ac05459.webp",
+        "original": "https://images.pkw.net/ford-grand-c-max-906166585-0x0_bcd8713d71.webp"
+      }
+    }
+  },
+  {
+    "name": "Renault ZOE R135 Z.E. 50 Intens BATTERIEMIETE NAVI LED",
+    "id": "97256505207217134",
+    "mileage": 10,
+    "brand": {
+      "id": 61,
+      "name": "Renault"
+    },
+    "model": {
+      "id": 2053,
+      "parent_id": null,
+      "name": "ZOE"
+    },
+    "fueltype": {
+      "id": 4,
+      "name": "Elektro"
+    },
+    "image": {
+      "thumb": "https://images.pkw.net/renault-zoe-903291244-120x90_c55044020e.jpg",
+      "full": "https://images.pkw.net/renault-zoe-903291244-640x480_e9ba8e85b4.jpg",
+      "original": "https://images.pkw.net/renault-zoe-903291244-0x0_a1883fb94e.jpg",
+      "webp": {
+        "thumb": "https://images.pkw.net/renault-zoe-903291244-120x90_6c732dfcdc.webp",
+        "full": "https://images.pkw.net/renault-zoe-903291244-640x480_7cb259a52f.webp",
+        "original": "https://images.pkw.net/renault-zoe-903291244-0x0_e6935a82f2.webp"
+      }
+    }
+  }
+]
