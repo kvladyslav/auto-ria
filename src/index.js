@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import allCars from './all-cars.json';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App cars={allCars}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
