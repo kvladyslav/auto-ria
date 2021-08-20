@@ -2,19 +2,12 @@ input {
     display: none;
 }
 
-.check {
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
-    position: relative;
-}
-
 .check:after {
-    content: '★';
-    display: none;
+    content: '☆';
+
 }
 
 input:checked + .check:after{
-    display: block;
+    content: '★';
 }
 
