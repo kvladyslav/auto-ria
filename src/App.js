@@ -5,12 +5,12 @@ import AutoDetails from "./components/AutoDetails/AutoDetails";
 
 const App = (props) => {
     return (
-        <BrowserRouter>
             <div className="App">
-                <Route exact path='/main' render={ () => <Auto cars={props.cars}/> } />
-                <Route exact path='/details/:id' render={ () => <AutoDetails cars={props.cars}/> } />
+                <Route exact path='/main'
+                       render={ () => <Auto cars={props.state.cars} dispatch={props.dispatch}/> } />
+                <Route exact path='/details/:id'
+                       render={ () => <AutoDetails cars={props.state.cars} dispatch={props.dispatch}/> } />
             </div>
-        </BrowserRouter>
     );
 }
 
