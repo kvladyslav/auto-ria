@@ -7,8 +7,16 @@ let initialState = allCars;
 const carsReducer = (state = initialState, action) => {
     switch (action.type) {
         case PARKING:
-            state.find(x => x.id === action.carId).newState = action.newState
-            return state;
+            switch (action.newState) {
+                case 'false':
+                    state.find(x => x.id === action.carId).newState = 'not parked'
+                    return state;
+                case 'true':
+                    state.find(x => x.id === action.carId).newState = 'parked'
+                    return state;
+                default:
+                    return state;
+            }
         default:
             return state;
     }

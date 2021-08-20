@@ -34,6 +34,7 @@ const AutoCard = (props) => {
                                 </label>
                             </div>
                         </li>
+                        <li>{props.car.newState}</li>
                     </ul>
                 </div>
             </div>
