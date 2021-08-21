@@ -37,6 +37,7 @@ const AutoDetails = (props) => {
                     <div className={a.check}></div>
                 </label>
             </div>
+            <div>{carsFilter.newState}</div>
         </div>
     )
 

@@ -1,0 +1,40 @@
+/*.wrapper {*/
+/*    text-align: center;*/
+/*}*/
+
+.auto_wrapper {
+    display: flex;
+    /*есть еще inline-flex*/
+
+    flex-direction: column;
+    /*row by default, also column, reverse for column and row*/
+
+    justify-content: flex-start;
+    /*justify-content определяет поведение по горизонтали (как основной оси, при direction column меняется*/
+    /*flex-start у justify-content по умолчанию, есть еще center, flex-send, space-around*/
+
+    align-items: center;
+    /*align-items определяет поведение по вертикали*/
+    /*stretch у align-items по умолчанию, есть еще flex-end, center, flex-start, baseline*/
+
+    flex-wrap: wrap;
+    /*no-wrap по умолчанию*/
+    /*wrap-reverse в момент когда не хватает места распологаться сзадом наперед*/
+
+    /*"align-self" позволяет перезаписать указанное значение для конкретного flex элема*/
+
+    /*"order" позволяет выстраивать порядок вывода элемента*/
+
+    /*"flex-basis" (auto по умолчанию, занимает размер равный размеру контента, управляет базовым размером)*/
+    /*flex-basis not width*/
+
+    /*"flex-grow" контролирует способность увеличиваться в размере относительно flex-basis, по умолчанию 0*/
+
+    /*"flex-shrink" контролирует способность уменьшаться в размере относительно flex-basis, по умолчанию 1*/
+
+    /*flex: 0 (flex-grow) 1 (flex-shrink) auto (flex-basis)*/
+
+
+
+}
+

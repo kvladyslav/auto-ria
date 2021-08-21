@@ -10,33 +10,26 @@ const AutoCard = (props) => {
     }
     props.dispatch(parkingCreator(checked.toString(), props.car.id));
     return (
-        <div>
-            <div className={a.card}>
-                <div className={a.image}>
-                    <img src={props.car.image.thumb}/>
-                </div>
+        <div className={a.auto_item}>
+            <div className={a.auto_image}>
+                <img src={props.car.image.full}/>
+            </div>
+            <div className={a.description}>
                 <div className={a.name}><NavLink to={"/details/" + props.car.id}>{props.car.name}</NavLink></div>
-                <div className={a.description}>
-                    <ul>
-                        <li>{props.car.brand.name}</li>
-                        <li>{props.car.model.name}</li>
-                        <li>{props.car.mileage}</li>
-                        <li>{props.car.fueltype.name}</li>
-                        <li>
-                            <div>
-                                <label>
-                                    <input
-                                        type="checkbox"
-                                        checked={checked}
-                                        onChange={handleChange}
-                                    />
-                                    <div className={a.check}></div>
-                                </label>
-                            </div>
-                        </li>
-                        <li>{props.car.newState}</li>
-                    </ul>
+                <div>{props.car.model.name}</div>
+                <div>{props.car.mileage}</div>
+                <div>{props.car.fueltype.name}</div>
+                <div>
+                    <label>
+                        <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={handleChange}
+                        />
+                        <div className={a.check}></div>
+                    </label>
                 </div>
+                <div>{props.car.newState}</div>
             </div>
         </div>
     );
