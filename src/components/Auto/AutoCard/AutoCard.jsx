@@ -19,21 +19,21 @@ const AutoCard = (props) => {
                 <div className={a.price}>
                     <span className={a.usd}>{props.car.price.usd} $ </span>
                     <span className={a.point}>•</span>
-                    <span className={a.uah}> {props.car.price.uah} uah</span>
+                    <span className={a.uah}> {props.car.price.uah} uah</span>"
                 </div>
                 <div className={a.description}>
                     <ul>
                         <li className={a.mileage}>
-                            <span className={a.icon}></span><span> {props.car.mileage} ths km</span>
+                            <i></i><span> {props.car.mileage} ths km</span>
                         </li>
                         <li className={a.fueltype}>
-                            <span className={a.icon}></span><span> {props.car.fueltype.name}</span>
+                            <i></i><span> {props.car.fueltype.name}</span>
                         </li>
                         <li className={a.location}>
-                            <span className={a.icon}></span><span> {props.car.city}</span>
+                            <i></i><span> {props.car.city}</span>
                         </li>
                         <li className={a.model}>
-                            <span className={a.icon}></span><span> {props.car.model.name}</span>
+                            <i></i><span> {props.car.model.name}</span>
                         </li>
                     </ul>
                     <div className={a.vin}>
