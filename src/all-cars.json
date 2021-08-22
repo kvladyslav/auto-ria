@@ -1,7 +1,12 @@
 [
   {
-    "name": "Peugeot 3008 1.2 PureTech 130 PDC SHZ VirtC MirrorL 17Z 96 k...",
+    "name": "Peugeot 3008 1.2 PureTech",
     "id": "908007299321358160",
+    "price": {
+      "usd": 9650,
+      "uah": 255725
+    },
+    "city": "Kharkiv",
     "mileage": 10,
     "brand": {
       "id": 56,
@@ -16,6 +21,9 @@
       "id": 1,
       "name": "Benzin"
     },
+    "date-added": "20.08.2021",
+    "vin": "4S4VX830х64хххх55",
+    "info": "Автомобиль куплен в украине,в 2012 году,в автосалоне в топовой,самой максимальной,комплектации limited: 3-х литровый двигатель мощностью 250 л.с ( не испорчена газом )",
     "image": {
       "thumb": "https://images.pkw.net/peugeot-3008-906756802-120x90_fef4c4e899.jpg",
       "full": "https://images.pkw.net/peugeot-3008-906756802-640x480_52204453a5.jpg",
@@ -30,6 +38,11 @@
   {
     "name": "Hyundai Kona EV Style",
     "id": "515484831559311489",
+    "price": {
+      "usd": 4502,
+      "uah": 119303
+    },
+    "city": "Lviv",
     "mileage": 5,
     "brand": {
       "id": 30,
@@ -44,6 +57,9 @@
       "id": 4,
       "name": "Elektro"
     },
+    "date-added": "18.08.2021",
+    "vin": "WVWZZZ1KZ5W544102",
+    "info": "Компанія brocar,запрошую на наш автомайданчик,який знаходиться на стебницькому кільці,глянути свіжо-пригнане авто,в гарному стані,по кузову питань немає,мотор,коробка працює добре,нічого не",
     "image": {
       "thumb": "https://images.pkw.net/hyundai-kona-900327537-120x90_b29d3cffbe.jpg",
       "full": "https://images.pkw.net/hyundai-kona-900327537-640x480_621ad34d09.jpg",
@@ -58,6 +74,11 @@
   {
     "name": "Opel Astra ST GS LINE 1.2 Klimaautomatik Navi",
     "id": "45257411656117929",
+    "price": {
+      "usd": 4810,
+      "uah": 127465
+    },
+    "city": "Kharkiv",
     "mileage": 4711,
     "brand": {
       "id": 54,
@@ -72,6 +93,9 @@
       "id": 1,
       "name": "Benzin"
     },
+    "date-added": "16.08.2021",
+    "vin": "WVWZZZ1JZ1W578399",
+    "info": "Продаю свой автомобиль ,очень ухоженый ,все работает ,покрыта керамикой (круто смотрится 600 $) ,поменял масло в коробке ,заменил ремень грм (машина проехала на новом не больше 200 км",
     "image": {
       "thumb": "https://images.pkw.net/opel-astra-903739952-120x90_8256d59aef.jpg",
       "full": "https://images.pkw.net/opel-astra-903739952-640x480_67272bfce3.jpg",
@@ -86,6 +110,11 @@
   {
     "name": "Opel Insignia INNOVATION/Automatik/Schiebedach/ACC/Na",
     "id": "558541329313935799",
+    "price": {
+      "usd": 7800,
+      "uah": 206700
+    },
+    "city": "Lviv",
     "mileage": 45842,
     "brand": {
       "id": 54,
@@ -100,6 +129,9 @@
       "id": 2,
       "name": "Diesel"
     },
+    "date-added": "11.08.2021",
+    "vin": "JMBX3JCWхWAхххх81",
+    "info": "Авто свіжо пригнане з німеччени,нічого не гримає не стукає,мотор працює рівно,по коробці питань немає,кузов живий,салон чистий та збережений,на гарній комплектації,клімат контроль,підігріви сидінь,!",
     "image": {
       "thumb": "https://images.pkw.net/opel-insignia-906953377-120x90_a40a0353a5.jpg",
       "full": "https://images.pkw.net/opel-insignia-906953377-640x480_e77b70472b.jpg",
@@ -114,6 +146,11 @@
   {
     "name": "Opel Crossland X 120 Jahre 1.2 Klima/SH/PDC/LED",
     "id": "669117635437031244",
+    "price": {
+      "usd": 5400,
+      "uah": 143100
+    },
+    "city": "Dnepr",
     "mileage": 9800,
     "brand": {
       "id": 54,
@@ -128,6 +165,9 @@
       "id": 1,
       "name": "Benzin"
     },
+    "date-added": "08.08.2021",
+    "vin": "WVGZZZ7PхHDхххх39",
+    "info": "•••Свіжо пригнане авто••• •••mitsubishi outlender xl 2.0 tdi rockford ultimate maximal ••• ••••пригнаний з європи•••• —-ідеальний стан!!!——- ——оригінальний пробіг—— •••надійний двигун volkswagen 2.0tdi 103kw /",
     "image": {
       "thumb": "https://images.pkw.net/opel-crossland-x-900769062-120x90_04dacf3695.jpg",
       "full": "https://images.pkw.net/opel-crossland-x-900769062-640x480_f886ca7a0a.jpg",
@@ -142,6 +182,11 @@
   {
     "name": "Peugeot 308 2.0HDI SW Allure>LEDER+NAVI PLUS+SHZ+PANO+LM",
     "id": "317592380224477884",
+    "price": {
+      "usd": 11200,
+      "uah": 143100
+    },
+    "city": "Odesa",
     "mileage": 59986,
     "brand": {
       "id": 56,
@@ -156,6 +201,9 @@
       "id": 2,
       "name": "Diesel"
     },
+    "date-added": "03.08.2021",
+    "vin": "YV1MW84FхC2хххх96",
+    "info": "Автомобіль тільки пригнано розмитнено 100% + сертифікат для реєстрації!!! авто в ідеальному стані без жодного підкрасу!!!комплектація r line максимальна!!! дата виготовлення автомобіль",
     "image": {
       "thumb": "https://images.pkw.net/peugeot-308-903371825-120x90_b266ee313a.jpg",
       "full": "https://images.pkw.net/peugeot-308-903371825-640x480_68f04c1991.jpg",
@@ -170,6 +218,11 @@
   {
     "name": "VW T6 .1 Kasten LR DSG Navi mob Klima PDC NP:47.000€",
     "id": "411876669639261528",
+    "price": {
+      "usd": 9120,
+      "uah": 241680
+    },
+    "city": "Kyiv",
     "mileage": 22900,
     "brand": {
       "id": 76,
@@ -184,6 +237,9 @@
       "id": 2,
       "name": "Diesel"
     },
+    "date-added": "29.07.2021",
+    "vin": "VF1KZ890х55хххх10",
+    "info": "Щойно пригнаний. розмитнений, та сертифікований, залишається тільки реєстрація на нового власника. volvo v50 r-design 1.6d d2 84kw 6-ти ступка. чистий 2012 рік. автомобіль приватний, купувався в сімї, стан",
     "image": {
       "thumb": "https://images.pkw.net/vw-t6-906699474-120x90_e1efd5ae78.jpg",
       "full": "https://images.pkw.net/vw-t6-906699474-640x480_9205e3e739.jpg",
@@ -198,6 +254,11 @@
   {
     "name": "VW Caddy 2.0 TDI EcoProfi BMT Kasten EINPARKHILFE",
     "id": "79875399298624121",
+    "price": {
+      "usd": 8700,
+      "uah": 230550
+    },
+    "city": "Kharkiv",
     "mileage": 37421,
     "brand": {
       "id": 76,
@@ -212,6 +273,9 @@
       "id": 2,
       "name": "Diesel"
     },
+    "date-added": "22.07.2021",
+    "vin": "VF1KZ890х55хххх10",
+    "info": "Renault megane limited автомобіль свіжо пригнаний з нідерландів, розмитнений, сертифікований, готовий до постановки на нового власника. автомобіль без",
     "image": {
       "thumb": "https://images.pkw.net/vw-caddy-901485546-120x90_cb34c02462.jpg",
       "full": "https://images.pkw.net/vw-caddy-901485546-640x480_ca2d60dd65.jpg",
@@ -226,6 +290,11 @@
   {
     "name": "Ford Grand C-Max Titanium",
     "id": "423798066123729417",
+    "price": {
+      "usd": 4100,
+      "uah": 108650
+    },
+    "city": "Lviv",
     "mileage": 72000,
     "brand": {
       "id": 26,
@@ -240,6 +309,9 @@
       "id": 1,
       "name": "Benzin"
     },
+    "date-added": "18.07.2021",
+    "vin": "VF7GJNFUх93хххх81",
+    "info": "Citroen berlingo multispace 11.2007 року випуску.1,6 бензин mpi. авто щойно привезене з нідерландів, розмитнене та готове до реєстрації на нового власника в сервісному центрі мвс. без пробігу по",
     "image": {
       "thumb": "https://images.pkw.net/ford-grand-c-max-906166585-120x90_e1de3de368.jpg",
       "full": "https://images.pkw.net/ford-grand-c-max-906166585-640x480_18dfa955a9.jpg",
@@ -254,6 +326,11 @@
   {
     "name": "Renault ZOE R135 Z.E. 50 Intens BATTERIEMIETE NAVI LED",
     "id": "97256505207217134",
+    "price": {
+      "usd": 5850,
+      "uah": 155025
+    },
+    "city": "Odesa",
     "mileage": 10,
     "brand": {
       "id": 61,
@@ -268,6 +345,9 @@
       "id": 4,
       "name": "Elektro"
     },
+    "date-added": "14.07.2021",
+    "vin": "VF7GJNFUх93хххх81",
+    "info": "Автомобіль пригнаний з америки, на гарній комплектації, рідний пробіг, шкіряний салон у рідкому кольорі, гарно збережений, електрична дотяжка багажника. по всім запитянням по телефону, надамо",
     "image": {
       "thumb": "https://images.pkw.net/renault-zoe-903291244-120x90_c55044020e.jpg",
       "full": "https://images.pkw.net/renault-zoe-903291244-640x480_e9ba8e85b4.jpg",

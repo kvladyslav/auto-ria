@@ -14,12 +14,37 @@ const AutoCard = (props) => {
             <div className={a.auto_image}>
                 <img src={props.car.image.full}/>
             </div>
-            <div className={a.description}>
+            <div className={a.content}>
                 <div className={a.name}><NavLink to={"/details/" + props.car.id}>{props.car.name}</NavLink></div>
-                <div>{props.car.model.name}</div>
-                <div>{props.car.mileage}</div>
-                <div>{props.car.fueltype.name}</div>
-                <div>
+                <div className={a.price}>
+                    <span className={a.usd}>{props.car.price.usd} $ </span>
+                    <span className={a.point}>•</span>
+                    <span className={a.uah}> {props.car.price.uah} uah</span>
+                </div>
+                <div className={a.description}>
+                    <ul>
+                        <li className={a.mileage}>
+                            <span className={a.icon}></span><span> {props.car.mileage} ths km</span>
+                        </li>
+                        <li className={a.fueltype}>
+                            <span className={a.icon}></span><span> {props.car.fueltype.name}</span>
+                        </li>
+                        <li className={a.location}>
+                            <span className={a.icon}></span><span> {props.car.city}</span>
+                        </li>
+                        <li className={a.model}>
+                            <span className={a.icon}></span><span> {props.car.model.name}</span>
+                        </li>
+                    </ul>
+                    <div className={a.vin}>
+                        <span>{props.car.vin}</span>
+                    </div>
+                    <div className={a.info}>
+                        <span>{props.car.info}</span>
+                        <label>...</label>
+                    </div>
+                </div>
+                <div className={a.parking}>
                     <label>
                         <input
                             type="checkbox"
@@ -29,7 +54,6 @@ const AutoCard = (props) => {
                         <div className={a.check}></div>
                     </label>
                 </div>
-                <div>{props.car.newState}</div>
             </div>
         </div>
     );
