@@ -39,20 +39,31 @@ const AutoCard = (props) => {
                     <div className={a.vin}>
                         <span>{props.car.vin}</span>
                     </div>
-                    <div className={a.info}>
+                    <p className={a.info}>
                         <span>{props.car.info}</span>
                         <label>...</label>
-                    </div>
+                    </p>
                 </div>
-                <div className={a.parking}>
-                    <label>
-                        <input
-                            type="checkbox"
-                            checked={checked}
-                            onChange={handleChange}
-                        />
-                        <div className={a.check}></div>
-                    </label>
+                <div className={a.footer}>
+                    <span className={a.date_added}>
+                        <i className={a.icon}></i>
+                        <span> {props.car.date_added}</span>
+                    </span>
+                    <div className={a.status}>
+                        <a className={a.compare}>
+                            <i></i>
+                        </a>
+                        <a className={a.parking}>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    checked={checked}
+                                    onChange={handleChange}
+                                />
+                                <div className={a.check}></div>
+                            </label>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
