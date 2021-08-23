@@ -19,7 +19,7 @@ const AutoCard = (props) => {
                 <div className={a.price}>
                     <span className={a.usd}>{props.car.price.usd} $ </span>
                     <span className={a.point}>•</span>
-                    <span className={a.uah}> {props.car.price.uah} uah</span>"
+                    <span className={a.uah}> {props.car.price.uah} uah</span>
                 </div>
                 <div className={a.description}>
                     <ul>
