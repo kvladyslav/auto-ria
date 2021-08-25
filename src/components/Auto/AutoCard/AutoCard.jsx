@@ -1,14 +1,34 @@
 import a from "./AutoCard.module.css";
 import {NavLink} from "react-router-dom";
-import React from "react";
-import {parkingCreator} from "../../../redux/carsReducer";
+import React, {useEffect} from "react";
+import {parkingCreator, compareCreator} from "../../../redux/carsReducer";
 
 const AutoCard = (props) => {
-    const [checked, setChecked] = React.useState(false);
+    const [checked, setChecked] = React.useState(
+        {
+            "parking": false,
+            "compare": false
+        });
+
     const handleChange = () => {
-        setChecked(!checked);
-    }
-    props.dispatch(parkingCreator(checked.toString(), props.car.id));
+        setChecked({
+            "parking": !checked.parking,
+            "compare": !checked.compare,
+        })
+
+        props.dispatch(compareCreator(checked.compare.toString(), props.car.id));
+        props.dispatch(parkingCreator(checked.parking.toString(), props.car.id));
+
+        }
+
+    // const localData = localStorage.getItem('allCars');
+    // return localData ? JSON.parse(localData) : [];
+
+
+    // useEffect(() => {
+    //     localStorage.setItem('allCars', JSON.stringify(props.cars))
+    // }, [props.cars])
+
     return (
         <div className={a.auto_item}>
             <div className={a.auto_image}>
@@ -51,13 +71,20 @@ const AutoCard = (props) => {
                     </span>
                     <div className={a.status}>
                         <a className={a.compare}>
-                            <i></i>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    checked={checked.compare}
+                                    onChange={handleChange}
+                                />
+                                <div className={a.check}></div>
+                            </label>
                         </a>
                         <a className={a.parking}>
                             <label>
                                 <input
                                     type="checkbox"
-                                    checked={checked}
+                                    checked={checked.parking}
                                     onChange={handleChange}
                                 />
                                 <div className={a.check}></div>

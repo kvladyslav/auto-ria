@@ -7,7 +7,7 @@ const Auto = (props) => {
         <div className={a.wrapper}>
             <div className={a.auto_wrapper}>
                 {props.cars.map(car => {
-                    return (<AutoCard car={car} dispatch={props.dispatch}/>)
+                    return (<AutoCard car={car} cars={props.cars} dispatch={props.dispatch}/>)
                 })}
             </div>
         </div>
