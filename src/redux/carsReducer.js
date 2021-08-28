@@ -5,15 +5,16 @@ const COMPARE = 'COMPARE';
 
 let initialState = allCars;
 
+
 const carsReducer = (state = initialState, action) => {
     switch (action.type) {
         case PARKING:
             switch (action.parkingState) {
                 case 'false':
-                    state.find(x => x.id === action.carId).parkingState = 'not parked'
+                    state.find(x => x.id === action.carId).parkingState = 'not parked';
                     return state;
                 case 'true':
-                    state.find(x => x.id === action.carId).parkingState = 'parked'
+                    state.find(x => x.id === action.carId).parkingState = 'parked';
                     return state;
                 default:
                     return state;
@@ -21,10 +22,10 @@ const carsReducer = (state = initialState, action) => {
         case COMPARE:
             switch (action.compareState) {
                 case 'false':
-                    state.find(x => x.id === action.carId).compareState = 'not added'
+                    state.find(x => x.id === action.carId).compareState = 'not added';
                     return state;
                 case 'true':
-                    state.find(x => x.id === action.carId).compareState = 'added'
+                    state.find(x => x.id === action.carId).compareState = 'added';
                     return state;
                 default:
                     return state;

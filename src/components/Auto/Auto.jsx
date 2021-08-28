@@ -1,16 +1,23 @@
 import React from "react";
 import AutoCard from "./AutoCard/AutoCard";
 import a from './Auto.module.css'
+import styled from 'styled-components';
+
+const AutoWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+`
 
 const Auto = (props) => {
     return (
-        <div className={a.wrapper}>
-            <div className={a.auto_wrapper}>
-                {props.cars.map(car => {
-                    return (<AutoCard car={car} cars={props.cars} dispatch={props.dispatch}/>)
-                })}
-            </div>
-        </div>
+        <AutoWrapper>
+            {props.cars.map(car => {
+                return (<AutoCard car={car} cars={props.cars} dispatch={props.dispatch}/>)
+            })}
+        </AutoWrapper>
     );
 }
 

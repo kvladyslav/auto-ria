@@ -4,16 +4,32 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import React from 'react';
 import {BrowserRouter} from "react-router-dom";
+import {createGlobalStyle} from "styled-components";
+
+const Global = createGlobalStyle`
+* {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 15px;
+      font-family: Arial,Helvetica,sans-serif;
+      color: #414042;
+      text-rendering: optimizeSpeed;
+      line-height: 20px;  
+}
+`
 
 let reRenderEntireTree = (state) => {
     ReactDOM.render(
         <React.StrictMode>
             <BrowserRouter>
-                <App state={state}
-                     store={store}
-                     dispatch={store.dispatch.bind(store)}
-                     // bind.store - чтобы владелец метода сохранился, сложности с контекстом вызова this
-                     />
+                <>
+                    <Global/>
+                    <App state={state}
+                         store={store}
+                         dispatch={store.dispatch.bind(store)}
+                         // bind.store - чтобы владелец метода сохранился, сложности с контекстом вызова this
+                         />
+                </>
             </BrowserRouter>
         </React.StrictMode>,
         document.getElementById('root')

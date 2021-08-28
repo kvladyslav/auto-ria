@@ -3,31 +3,58 @@ import {NavLink} from "react-router-dom";
 import React, {useEffect} from "react";
 import {parkingCreator, compareCreator} from "../../../redux/carsReducer";
 
+import styled from 'styled-components';
+
 const AutoCard = (props) => {
     const [checked, setChecked] = React.useState(
+        JSON.parse(localStorage.getItem('items')) ||
         {
-            "parking": false,
-            "compare": false
-        });
-
-    const handleChange = () => {
-        setChecked({
-            "parking": !checked.parking,
-            "compare": !checked.compare,
-        })
-
-        props.dispatch(compareCreator(checked.compare.toString(), props.car.id));
-        props.dispatch(parkingCreator(checked.parking.toString(), props.car.id));
-
+            id: JSON.parse(localStorage.getItem('allCars')) === null ? ''
+                : JSON.parse(localStorage.getItem('allCars')).id,
+            parking: JSON.parse(localStorage.getItem('allCars')) === null ? false
+                : JSON.parse(localStorage.getItem('allCars')).parking,
+            compare: JSON.parse(localStorage.getItem('allCars')) === null ? false
+                : JSON.parse(localStorage.getItem('allCars')).compare,
         }
+    );
 
-    // const localData = localStorage.getItem('allCars');
-    // return localData ? JSON.parse(localData) : [];
+    const [active, setActive] = React.useState('shortInfo')
+
+    const Info = () => {
+        return (
+            <p className={a.shortInfo}>
+                <span>{props.car.info}</span>
+                <button onClick={() => setActive('fullInfo')}>...</button>
+            </p>
+        )
+    }
 
 
-    // useEffect(() => {
-    //     localStorage.setItem('allCars', JSON.stringify(props.cars))
-    // }, [props.cars])
+    const FullInfo = () => {
+        return (
+            <p className={a.fullInfo}>
+                <span>{props.car.info}</span>
+                <button onClick={() => setActive('shortInfo')}>...</button>
+            </p>
+        )
+    }
+
+    useEffect(() => {
+        localStorage.setItem('allCars', JSON.stringify(checked))
+    }, [checked])
+
+
+    const handleChange = (e) => {
+        const { name, id } = e.target;
+        setChecked({
+            ...checked,
+            id: id,
+            [name]: !checked[name]
+        })
+    }
+
+    props.dispatch(parkingCreator(checked.parking?.toString(), props.car.id));
+    props.dispatch(compareCreator(checked.compare?.toString(), props.car.id));
 
     return (
         <div className={a.auto_item}>
@@ -59,10 +86,8 @@ const AutoCard = (props) => {
                     <div className={a.vin}>
                         <span>{props.car.vin}</span>
                     </div>
-                    <p className={a.info}>
-                        <span>{props.car.info}</span>
-                        <label>...</label>
-                    </p>
+                    <div>{active === 'shortInfo' && <Info />}</div>
+                    <div>{active === 'fullInfo' && <FullInfo />}</div>
                 </div>
                 <div className={a.footer}>
                     <span className={a.date_added}>
@@ -74,20 +99,30 @@ const AutoCard = (props) => {
                             <label>
                                 <input
                                     type="checkbox"
-                                    checked={checked.compare}
-                                    onChange={handleChange}
+                                    id={props.car.id}
+                                    value={JSON.parse(localStorage.getItem('allCars')) === null ? false
+                                        : JSON.parse(localStorage.getItem('allCars')).compare}
+                                    onClick={handleChange}
+                                    name="compare"
                                 />
-                                <div className={a.check}></div>
+                                {checked.compare === false  ?
+                                    <div className={a.checkCompare}></div> :
+                                    <div className={a.checkCompareSelected}></div>}
                             </label>
                         </a>
                         <a className={a.parking}>
                             <label>
                                 <input
                                     type="checkbox"
-                                    checked={checked.parking}
-                                    onChange={handleChange}
+                                    id={props.car.id}
+                                    value={JSON.parse(localStorage.getItem('allCars')) === null ? false
+                                        : JSON.parse(localStorage.getItem('allCars')).parking}
+                                    onClick={handleChange}
+                                    name="parking"
                                 />
-                                <div className={a.check}></div>
+                                {checked.parking === false  ?
+                                    <div className={a.checkParking}></div> :
+                                    <div className={a.checkParkingSelected}></div>}
                             </label>
                         </a>
                     </div>
