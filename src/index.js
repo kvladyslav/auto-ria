@@ -8,13 +8,13 @@ import {createGlobalStyle} from "styled-components";
 
 const Global = createGlobalStyle`
 * {
-      font-weight: 400;
-      font-style: normal;
-      font-size: 15px;
-      font-family: Arial,Helvetica,sans-serif;
-      color: #414042;
-      text-rendering: optimizeSpeed;
-      line-height: 20px;  
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #414042;
+  text-rendering: optimizeSpeed;
+  line-height: 20px;  
 }
 `
 
