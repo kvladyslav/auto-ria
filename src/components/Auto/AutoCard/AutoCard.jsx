@@ -195,17 +195,22 @@ const CheckParkingSelected = styled(CheckParking)`
 `
 
 const AutoCard = (props) => {
-    const [checked, setChecked] = React.useState(
-        JSON.parse(localStorage.getItem('items')) ||
-        {
-            id: JSON.parse(localStorage.getItem('allCars')) === null ? ''
-                : JSON.parse(localStorage.getItem('allCars')).id,
-            parking: JSON.parse(localStorage.getItem('allCars')) === null ? false
-                : JSON.parse(localStorage.getItem('allCars')).parking,
-            compare: JSON.parse(localStorage.getItem('allCars')) === null ? false
-                : JSON.parse(localStorage.getItem('allCars')).compare,
-        }
-    );
+    // const [checked, setChecked] = React.useState(
+    //     JSON.parse(localStorage.getItem('allCars')) ||
+    //     {
+    //         id: JSON.parse(localStorage.getItem('allCars')) === null ? ''
+    //             : JSON.parse(localStorage.getItem('allCars')).id,
+    //         parking: JSON.parse(localStorage.getItem('allCars')) === null ? false
+    //             : JSON.parse(localStorage.getItem('allCars')).parking,
+    //         compare: JSON.parse(localStorage.getItem('allCars')) === null ? false
+    //             : JSON.parse(localStorage.getItem('allCars')).compare,
+    //     }
+    // );
+
+    const [checked, setChecked] = React.useState({
+        compare: false,
+        parking: false
+    });
 
     const [active, setActive] = React.useState('shortInfo')
 
@@ -228,16 +233,24 @@ const AutoCard = (props) => {
         )
     }
 
-    useEffect(() => {
-        localStorage.setItem('allCars', JSON.stringify(checked))
-    }, [checked])
+    // useEffect(() => {
+    //     localStorage.setItem('allCars', JSON.stringify(checked))
+    // }, [checked])
 
+
+    // const handleChange = (e) => {
+    //     const { name, id } = e.target;
+    //     setChecked({
+    //         ...checked,
+    //         id: id,
+    //         [name]: !checked[name]
+    //     })
+    // }
 
     const handleChange = (e) => {
-        const { name, id } = e.target;
+        const { name } = e.target;
         setChecked({
             ...checked,
-            id: id,
             [name]: !checked[name]
         })
     }
@@ -289,8 +302,7 @@ const AutoCard = (props) => {
                                 <input
                                     type="checkbox"
                                     id={props.car.id}
-                                    value={JSON.parse(localStorage.getItem('allCars')) === null ? false
-                                        : JSON.parse(localStorage.getItem('allCars')).compare}
+                                    value={checked.compare}
                                     onClick={handleChange}
                                     name="compare"
                                 />
@@ -302,8 +314,7 @@ const AutoCard = (props) => {
                                 <input
                                     type="checkbox"
                                     id={props.car.id}
-                                    value={JSON.parse(localStorage.getItem('allCars')) === null ? false
-                                        : JSON.parse(localStorage.getItem('allCars')).parking}
+                                    value={checked.parking}
                                     onClick={handleChange}
                                     name="parking"
                                 />
